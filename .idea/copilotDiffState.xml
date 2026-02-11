@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/test/java/iscteiul/ista/battleship/BargTest1.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/test/java/iscteiul/ista/battleship/BargTest1.java" />
+              <option name="originalContent" value="package iscteiul.ista.battleship;&#10;&#10;public class BargTest1 {&#10;&#10;    @test&#10;&#10;&#10;}&#10;" />
+              <option name="updatedContent" value="package iscteiul.ista.battleship;&#10;&#10;import org.junit.jupiter.api.Test;&#10;&#10;import static org.junit.jupiter.api.Assertions.*;&#10;&#10;public class BargTest1 {&#10;&#10;    @Test&#10;    public void testBargeCreationAndPosition() {&#10;        Position origin = new Position(4, 5);&#10;        Barge b = new Barge(Compass.NORTH, origin);&#10;&#10;        assertEquals(Integer.valueOf(1), b.getSize());&#10;        assertNotNull(b.getPositions());&#10;        assertEquals(1, b.getPositions().size());&#10;&#10;        Position p = (Position) b.getPositions().get(0);&#10;        assertEquals(4, p.getRow());&#10;        assertEquals(5, p.getColumn());&#10;    }&#10;&#10;    @Test&#10;    public void testOccupiesAndShootBehavior() {&#10;        Position origin = new Position(0, 0);&#10;        Barge b = new Barge(Compass.EAST, origin);&#10;&#10;        Position pos = new Position(0, 0);&#10;        assertTrue(b.occupies(pos));&#10;        assertTrue(b.stillFloating());&#10;&#10;        b.shoot(pos);&#10;        assertFalse(b.stillFloating());&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

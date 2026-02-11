@@ -65,6 +65,15 @@ public class Tasks {
                 case STATUS:
                     if (fleet != null)
                         fleet.printStatus();
+                        FleetStatusView.printFromFleet(fleet, 10, 10, true); //
+                    try {
+                        FleetStatusWindow.showFromFleet(fleet, 10, 10, true);
+                        FleetStatusWeb.showFromFleet(fleet, 10, 10, true);
+                    } catch (Exception ex) {
+                        // Fallback: print to console if GUI call fails
+                        System.out.println("Unable to open fleet status window: " + ex.getMessage());
+                        System.out.println("Unable to open fleet status web view: " + ex.getMessage());
+                    }
                     break;
                 default:
                     LOGGER.info("Que comando é esse??? Repete lá ...");

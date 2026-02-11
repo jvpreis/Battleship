@@ -15,15 +15,6 @@ public enum Compass {
         this.c = c;
     }
 
-    public char getDirection() {
-        return c;
-    }
-
-    @Override
-    public String toString() {
-        return "" + c;
-    }
-
     static Compass charToCompass(char ch) {
         Compass bearing;
         switch (ch) {
@@ -44,5 +35,14 @@ public enum Compass {
         }
 
         return bearing;
+    }
+
+    public char getDirection() {
+        return c;
+    }
+
+    @Override
+    public String toString() {
+        return "" + c;
     }
 }
