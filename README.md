@@ -1,3 +1,2 @@
 # Battleship
-A  battleship game in the XVII century 
-QQ
+A  battleship game in the XVII century
