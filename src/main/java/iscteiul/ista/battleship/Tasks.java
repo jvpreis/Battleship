@@ -50,7 +50,7 @@ public class Tasks {
     }
 
     /**
-     * This task tests the building up of fleets
+     * This task tests the building up of fleets and the printing of their status
      */
     public static void taskB() {
         Scanner in = new Scanner(System.in);
