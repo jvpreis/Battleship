@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 <project name="Battleship" xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
   <bannerLeft>
     <name>Battleship</name>
+=======
+<project name="BattleshipGame" xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
+  <bannerLeft>
+    <name>BattleshipGame</name>
+>>>>>>> 8b2bff580c3b33570a9c1163dd08ebe4680ad5cc
     <src>https://maven.apache.org/images/apache-maven-project.png</src>
     <href>https://www.apache.org/</href>
   </bannerLeft>
