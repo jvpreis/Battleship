@@ -6,7 +6,7 @@ package iscteiul.ista.battleship;
 public class Caravel extends Ship {
     private static final Integer SIZE = 2;
     private static final String NAME = "Caravela";
-sfsf
+
     /**
      * @param bearing the bearing where the Caravel heads to
      * @param pos     initial point for positioning the Caravel

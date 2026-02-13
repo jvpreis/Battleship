@@ -13,7 +13,6 @@ package iscteiul.ista.battleship;
 public class Galleon extends Ship {
     private static final Integer SIZE = 5;
     private static final String NAME = "Galeao";
-
     /**
      * Constrói um Galleon com o rumo e posição inicial especificados.
      *
