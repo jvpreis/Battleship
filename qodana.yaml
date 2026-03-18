@@ -12,13 +12,13 @@ include:
 failureConditions:
   severityThresholds:
     # Configurações para erros graves de Javadoc
-    - severity: Critical   # Ou a severidade específica do seu linter para Javadoc graves
+    - severity: High   # Ou a severidade específica do seu linter para Javadoc graves
       count: 10
       inspections:
         - group: "category:Javadoc" # Use o grupo ou inspeção específica para Javadoc
 
     # Configurações para erros graves de Code Style
-    - severity: Critical   # Ou a severidade específica do seu linter para Code Style graves
+    - severity: High   # Ou a severidade específica do seu linter para Code Style graves
       count: 10
       inspections:
         - group: "category:Code style" # Use o grupo ou inspeção específica para Code Style
