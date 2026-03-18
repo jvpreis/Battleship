@@ -10,25 +10,23 @@ include:
   - name: CheckDependencyLicenses
 
 failureConditions:
-  severityThresholds:
-    # Limite total opcional (podes remover se quiseres separar apenas por tipo)
-    critical: 20
-
-  # Regras específicas por tipo de problema
   conditions:
+    # Javadoc-related inspections
     - metric: problems
-      severity: CRITICAL
+      severity: HIGH
       threshold: 10
-      group: "Javadoc"
+      inspections:
+        - JavadocDeclaration
+        - MissingJavadoc
+        - JavadocReference
+        - JavadocHtmlLint
 
+    # Code style inspections
     - metric: problems
-      severity: CRITICAL
+      severity: HIGH
       threshold: 10
-      group: "Code style"
-
-exclude:
-  - name: All
-    paths:
-      - build
-      - out
-      - node_modules
+      inspections:
+        - CheckStyle
+        - CodeStyleIssues
+        - UnnecessarySemicolon
+        - RedundantModifiers
