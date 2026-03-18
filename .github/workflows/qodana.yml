@@ -26,4 +26,4 @@ jobs:
           linter: jetbrains/qodana-jvm
           args: --fail-threshold 0
         env:
-          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_131390707 }}
