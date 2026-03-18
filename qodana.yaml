@@ -27,6 +27,6 @@ failureConditions:
       threshold: 10
       inspections:
         - CheckStyle
-        - CodeStyleIssues
+        - CodeStyle
         - UnnecessarySemicolon
         - RedundantModifiers
