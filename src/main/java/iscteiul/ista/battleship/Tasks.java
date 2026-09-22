@@ -29,7 +29,7 @@ public class Tasks {
     // hereafter one may find some code that can be converted to automatic tests,
     // as long as appropriate changes are made. It also shows that we should
     // develop our code incrementally e.g. first the ships, then the fleet,
-    // then some rule checking, then dealing with firing and so on
+    // then some rule checking, then dealing with firing and so on.
     /////////////////////////////////////////////////////////////////////////////
 
     /**
