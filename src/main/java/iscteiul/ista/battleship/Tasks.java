@@ -34,7 +34,7 @@ public class Tasks {
 
     /**
      * This task tests the building up of ships: For each ship, reads positions and
-     * indicates whether the ship occupies each one of such positions or not
+     * indicates whether the ship occupies each one of such positions or not.
      */
     public static void taskA() {
         Scanner in = new Scanner(System.in);
