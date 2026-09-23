@@ -1,5 +1,6 @@
 package iscteiul.ista.battleship;
 
+
 /**
  * Represents a Barge used in the Battleship game.
  * <p>

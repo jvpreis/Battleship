@@ -1,0 +1,32 @@
+####################################################################################################################
+# WARNING: Do not store sensitive information in this file, as its contents will be included in the Qodana report. #
+####################################################################################################################
+
+version: "1.0"
+linter: jetbrains/qodana-jvm:2025.3
+profile:
+  name: qodana.recommended
+include:
+  - name: CheckDependencyLicenses
+
+failureConditions:
+  conditions:
+    # Javadoc-related inspections
+    - metric: problems
+      severity: HIGH
+      threshold: 10
+      inspections:
+        - JavadocDeclaration
+        - MissingJavadoc
+        - JavadocReference
+        - JavadocHtmlLint
+
+    # Code style inspections
+    - metric: problems
+      severity: HIGH
+      threshold: 10
+      inspections:
+        - CheckStyle
+        - CodeStyle
+        - UnnecessarySemicolon
+        - RedundantModifiers
