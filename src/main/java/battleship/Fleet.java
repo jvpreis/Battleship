@@ -10,7 +10,7 @@ import java.util.List;
 public class Fleet implements IFleet
 {
     /**
-     * This operation prints all the given ships
+     * This operation prints all the given ships.
      * 
      * @param ships The list of ships
      */
