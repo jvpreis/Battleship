@@ -23,7 +23,8 @@ public class Game implements IGame
 
 
     /**
-     * @param fleet The fleet 
+     * Create Game with fleet
+     * @param fleet The fleet
      */
     public Game(IFleet fleet)
     {
