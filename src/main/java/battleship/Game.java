@@ -35,7 +35,7 @@ public class Game implements IGame
     }
 
     /*
-     * (non-Javadoc)
+     *  (non-Javadoc)
      * 
      * @see battleship.IGame#fire(battleship.IPosition)
      */
