@@ -170,7 +170,7 @@ public class FleetTest {
             // To keep the test deterministic, we accept both outcomes: either AssertionError or no exception.
         } catch (AssertionError ae) {
             // expected when tests run with -ea
-            assertInstanceOf(AssertionError.class, ae);
+           // assertInstanceOf(AssertionError.class, ae);
         }
     }
 

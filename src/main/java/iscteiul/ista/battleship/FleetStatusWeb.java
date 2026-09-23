@@ -35,6 +35,9 @@ public final class FleetStatusWeb {
             System.out.println("No fleet available to display.");
             return;
         }
+
+
+
         try {
             Method m = fleet.getClass().getMethod("getShips");
             Object result = m.invoke(fleet);

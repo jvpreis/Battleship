@@ -15,9 +15,9 @@ public class App
 
         System.out.printf("\n***  Battleship Game ***\n");
 
-        // Tasks.taskA();
+        //Tasks.taskA();
         Tasks.taskB();
-        //	Tasks.taskC();
+        //Tasks.taskC();
         //Tasks.taskD();
     }
 }

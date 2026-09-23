@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"battleship"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"battleship"},{"l":"iscteiul.ista"},{"l":"iscteiul.ista.battleship"}];updateSearchResults();

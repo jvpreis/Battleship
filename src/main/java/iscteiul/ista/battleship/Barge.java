@@ -37,7 +37,7 @@ public class Barge extends Ship {
     /**
      * Returns the size of the Barge. Always returns {@code 1}.
      *
-     * @return the size of the Barge
+     * @return Size the size of the Barge
      */
     @Override
     public Integer getSize() {
