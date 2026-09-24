@@ -4,6 +4,8 @@ import iscteiul.ista.battleship.Fleet;
 import iscteiul.ista.battleship.Tasks;
 
 /**
+ * Entry point for the IST Battleship application.
+ *
  * @author britoeabreu
  * @author adrianolopes
  * @author miguelgoulao

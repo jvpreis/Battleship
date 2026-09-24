@@ -7,8 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author fba
+ * Represents a Battleship game session for the IST course implementation,
+ * including shot tracking and fleet status updates.
  *
+ * @author fba
  */
 public class Game implements IGame {
     private IFleet fleet;
