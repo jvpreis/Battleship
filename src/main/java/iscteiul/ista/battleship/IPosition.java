@@ -4,6 +4,9 @@
 package iscteiul.ista.battleship;
 
 /**
+ * Defines the behavior expected from a board position in the Battleship game,
+ * including occupancy, adjacency, and shot status.
+ *
  * @author fba
  */
 public interface IPosition {

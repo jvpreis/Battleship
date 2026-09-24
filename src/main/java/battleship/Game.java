@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package battleship;
 
@@ -8,8 +8,10 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @author fba
+ * Represents a Battleship game session, including fired shots, hit tracking,
+ * and the remaining floating ships in the fleet.
  *
+ * @author fba
  */
 public class Game implements IGame
 {
