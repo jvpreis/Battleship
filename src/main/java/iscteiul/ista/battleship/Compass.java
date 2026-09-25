@@ -4,6 +4,9 @@
 package iscteiul.ista.battleship;
 
 /**
+ * Represents the cardinal directions a ship may face in the Battleship game.
+ * Each direction is mapped to a single-letter code used throughout the project.
+ *
  * @author fba
  */
 public enum Compass {
@@ -11,10 +14,22 @@ public enum Compass {
 
     private final char c;
 
+    /**
+     * Creates a compass direction using its letter representation.
+     *
+     * @param c the single-letter code for the direction
+     */
     Compass(char c) {
         this.c = c;
     }
 
+    /**
+     * Converts a character to the corresponding compass direction.
+     * Unsupported or unknown values map to {@link #UNKNOWN}.
+     *
+     * @param ch the character to convert; accepted values are {@code 'n'}, {@code 's'}, {@code 'e'}, and {@code 'o'}
+     * @return the matching compass direction, or {@link #UNKNOWN} if the value is not recognized
+     */
     static Compass charToCompass(char ch) {
         Compass bearing;
         switch (ch) {
@@ -37,10 +52,20 @@ public enum Compass {
         return bearing;
     }
 
+    /**
+     * Gets the internal character representation of this compass direction.
+     *
+     * @return the character code associated with this direction
+     */
     public char getDirection() {
         return c;
     }
 
+    /**
+     * Returns the one-character representation of this direction.
+     *
+     * @return the compass letter for this direction
+     */
     @Override
     public String toString() {
         return "" + c;

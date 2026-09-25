@@ -4,6 +4,8 @@
 package battleship;
 
 /**
+ * Entry point for running the Battleship game from the command line.
+ *
  * @author britoeabreu
  * @author adrianolopes
  * @author miguelgoulao
