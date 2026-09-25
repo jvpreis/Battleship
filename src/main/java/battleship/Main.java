@@ -19,7 +19,7 @@ public class Main
     {
 	System.out.println("***  Battleship  ***");
 
-//	Tasks.taskA();;;;
+//	Tasks.taskA();
 //	Tasks.taskB();
 //	Tasks.taskC();
 	Tasks.taskD();
