@@ -6,6 +6,7 @@ public class Barge extends Ship
     private static final String NAME = "Barca";
 
     /**
+     * Constructor for a barge.
      * @param bearing - barge bearing
      * @param pos     - upper left position of the barge
      */
